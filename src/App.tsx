@@ -1,0 +1,202 @@
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { DemoAuthProvider } from './context/DemoAuthContext';
+import { NexusDataProvider } from './context/NexusDataContext';
+import { LoginLandingPage } from './components/layout/LoginLandingPage';
+import { ProtectedAdminRoute } from './components/admin/layout/ProtectedAdminRoute';
+import { AdminLayout } from './components/admin/layout/AdminLayout';
+
+// Admin Pages
+import { DashboardPage } from './components/admin/pages/DashboardPage';
+import { OrganizationPage } from './components/admin/pages/OrganizationPage';
+import { UsersPage } from './components/admin/pages/UsersPage';
+import { ReportingCyclePage } from './components/admin/pages/ReportingCyclePage';
+import { BRSRFrameworkPage } from './components/admin/pages/BRSRFrameworkPage';
+import { TaskAssignmentPage } from './components/admin/pages/TaskAssignmentPage';
+import { ValidationPage } from './components/admin/pages/ValidationPage';
+import { EvidenceAuditPage } from './components/admin/pages/EvidenceAuditPage';
+import { SettingsPage } from './components/admin/pages/SettingsPage';
+
+
+import { BRSRControlCenterPage } from './components/admin/pages/BRSRControlCenterPage';
+import { BRSRCorePage } from './components/admin/pages/BRSRCorePage';
+import { ConsolidationPage } from './components/admin/pages/ConsolidationPage';
+import { AssessmentPage } from './components/admin/pages/AssessmentPage';
+import { ReportsPage } from './components/admin/pages/ReportsPage';
+import { NotificationsPage } from './components/admin/pages/NotificationsPage';
+import { AuditLogsPage } from './components/admin/pages/AuditLogsPage';
+
+// Reviewer Pages & Layout
+import { ProtectedReviewerRoute } from './components/reviewer/layout/ProtectedReviewerRoute';
+import { ReviewerLayout } from './components/reviewer/layout/ReviewerLayout';
+import { ReviewerDashboardPage } from './components/reviewer/pages/ReviewerDashboardPage';
+import { ReviewQueuePage } from './components/reviewer/pages/ReviewQueuePage';
+import { SubmissionDetailPage } from './components/reviewer/pages/SubmissionDetailPage';
+import { ValidationIssuesPage } from './components/reviewer/pages/ValidationIssuesPage';
+import { EvidenceReviewPage } from './components/reviewer/pages/EvidenceReviewPage';
+import { ActivityHistoryPage } from './components/reviewer/pages/ActivityHistoryPage';
+import { ReviewerSettingsPage } from './components/reviewer/pages/ReviewerSettingsPage';
+
+// Contributor Pages & Layout
+import { ProtectedContributorRoute } from './components/contributor/layout/ProtectedContributorRoute';
+import { ContributorLayout } from './components/contributor/layout/ContributorLayout';
+import { ContributorDashboard } from './components/contributor/pages/ContributorDashboard';
+import { AssignmentPage } from './components/contributor/pages/AssignmentPage';
+
+import { ContributorAssignmentsPage } from './components/contributor/pages/ContributorAssignmentsPage';
+import { AssignmentDataEntryPage } from './components/contributor/pages/AssignmentDataEntryPage';
+
+
+import { ContributorCorrectionsPage } from './components/contributor/pages/ContributorCorrectionsPage';
+import { ContributorSubmissionsPage } from './components/contributor/pages/ContributorSubmissionsPage';
+import { ContributorActivityPage } from './components/contributor/pages/ContributorActivityPage';
+
+// Management Pages & Layout
+import { ProtectedManagementRoute } from './components/management/layout/ProtectedManagementRoute';
+import { ManagementLayout } from './components/management/layout/ManagementLayout';
+import { ManagementDashboard } from './components/management/pages/ManagementDashboard';
+import { ESGOverviewPage } from './components/management/pages/ESGOverviewPage';
+import { ReportsPage } from './components/management/pages/ReportsPage';
+import { PlaceholderPage } from './components/management/pages/PlaceholderPage';
+
+// Auditor Pages & Layout
+import { ProtectedAuditorRoute } from './components/auditor/layout/ProtectedAuditorRoute';
+import { AuditorLayout } from './components/auditor/layout/AuditorLayout';
+import { AuditorDashboard } from './components/auditor/AuditorDashboard';
+import { AuditorFindingsPage } from './components/auditor/pages/AuditorFindingsPage';
+
+export function App() {
+  return (
+    <DemoAuthProvider>
+      <NexusDataProvider>
+        <BrowserRouter>
+        <Routes>
+          {/* Public Landing Page */}
+          <Route path="/" element={<LoginLandingPage />} />
+
+          {/* Root /admin redirection */}
+          <Route path="/admin" element={<Navigate to="/admin/dashboard" replace />} />
+
+          {/* Protected ESG Admin Portal Subsystem */}
+          <Route
+            path="/admin"
+            element={
+              <ProtectedAdminRoute>
+                <AdminLayout />
+              </ProtectedAdminRoute>
+            }
+          >
+            <Route path="dashboard" element={<DashboardPage />} />
+            <Route path="organization" element={<OrganizationPage />} />
+            <Route path="users" element={<UsersPage />} />
+            <Route path="reporting-periods" element={<ReportingCyclePage />} />
+            <Route path="indicator-master" element={<BRSRFrameworkPage />} />
+            <Route path="data-collection" element={<TaskAssignmentPage />} />
+            <Route path="validation-rules" element={<ValidationPage />} />
+            <Route path="evidence-configuration" element={<EvidenceAuditPage />} />
+            <Route path="brsr-control-center" element={<BRSRControlCenterPage />} />
+            <Route path="brsr-core" element={<BRSRCorePage />} />
+            <Route path="consolidation" element={<ConsolidationPage />} />
+            <Route path="assessment" element={<AssessmentPage />} />
+            <Route path="reports" element={<ReportsPage />} />
+            <Route path="notifications" element={<NotificationsPage />} />
+            <Route path="audit-logs" element={<AuditLogsPage />} />
+            <Route path="settings" element={<SettingsPage />} />
+          </Route>
+
+          {/* Root /reviewer redirection */}
+          <Route path="/reviewer" element={<Navigate to="/reviewer/dashboard" replace />} />
+
+          {/* Protected Reviewer / Approver Portal Subsystem */}
+          <Route
+            path="/reviewer"
+            element={
+              <ProtectedReviewerRoute>
+                <ReviewerLayout />
+              </ProtectedReviewerRoute>
+            }
+          >
+            <Route path="dashboard" element={<ReviewerDashboardPage />} />
+            <Route path="review-queue" element={<ReviewQueuePage />} />
+            <Route path="submission-detail/:assignmentId" element={<SubmissionDetailPage />} />
+            <Route path="validation-issues" element={<ValidationIssuesPage />} />
+            <Route path="evidence-review" element={<EvidenceReviewPage />} />
+            <Route path="activity-history" element={<ActivityHistoryPage />} />
+            <Route path="settings" element={<ReviewerSettingsPage />} />
+          </Route>
+
+          {/* Root /contributor redirection */}
+          <Route path="/contributor" element={<Navigate to="/contributor/dashboard" replace />} />
+
+          {/* Protected Data Contributor Portal Subsystem */}
+          <Route
+            path="/contributor"
+            element={
+              <ProtectedContributorRoute>
+                <ContributorLayout />
+              </ProtectedContributorRoute>
+            }
+          >
+            <Route path="dashboard" element={<ContributorDashboard />} />
+            <Route path="assignments" element={<ContributorAssignmentsPage />} />
+            <Route path="assignment" element={<AssignmentPage />} />
+            <Route path="assignments/:assignmentId" element={<AssignmentDataEntryPage />} />
+
+            
+            
+            <Route path="corrections" element={<ContributorCorrectionsPage />} />
+            <Route path="submissions" element={<ContributorSubmissionsPage />} />
+            <Route path="activity" element={<ContributorActivityPage />} />
+          </Route>
+
+          {/* Management Portal Redirection */}
+          <Route path="/management" element={<Navigate to="/management/dashboard" replace />} />
+
+          {/* Protected Management Portal Subsystem */}
+          <Route
+            path="/management"
+            element={
+              <ProtectedManagementRoute>
+                <ManagementLayout />
+              </ProtectedManagementRoute>
+            }
+          >
+            <Route path="dashboard" element={<ManagementDashboard />} />
+            <Route path="esg-overview" element={<ESGOverviewPage />} />
+            <Route path="environmental" element={<PlaceholderPage title="Environmental" />} />
+            <Route path="social" element={<PlaceholderPage title="Social" />} />
+            <Route path="governance" element={<PlaceholderPage title="Governance" />} />
+            <Route path="brsr-readiness" element={<PlaceholderPage title="BRSR Readiness" />} />
+            <Route path="risks" element={<PlaceholderPage title="Risks & Exceptions" />} />
+            <Route path="sign-off" element={<PlaceholderPage title="Management Sign-Off" />} />
+            <Route path="reports" element={<ReportsPage />} />
+            <Route path="activity" element={<PlaceholderPage title="My Activity" />} />
+          </Route>
+
+          {/* Root /auditor redirection */}
+          <Route path="/auditor" element={<Navigate to="/auditor/dashboard" replace />} />
+
+          {/* Protected Auditor / Assurer Portal Subsystem */}
+          <Route
+            path="/auditor"
+            element={
+              <ProtectedAuditorRoute>
+                <AuditorLayout />
+              </ProtectedAuditorRoute>
+            }
+          >
+            <Route path="dashboard" element={<AuditorDashboard />} />
+            <Route path="findings" element={<AuditorFindingsPage />} />
+            <Route path="evidence" element={<EvidenceReviewPage />} />
+            <Route path="re-verification" element={<AuditorDashboard />} />
+          </Route>
+
+          {/* Fallback */}
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Routes>
+      </BrowserRouter>
+      </NexusDataProvider>
+    </DemoAuthProvider>
+  );
+}
+
+export default App;

@@ -1,0 +1,1668 @@
+{
+  "dossiers": [
+    {
+      "dossierId": "dossier_exp_2026_03",
+      "contextKey": "meil_exp_2026_03",
+      "projectId": "proj_exp",
+      "projectName": "Expressway Project Phase-II (Raipur)",
+      "projectCode": "MEIL-EXP-RPR-02",
+      "siteId": "site_exp_02",
+      "siteName": "Site 02 (Km 42 - Km 88)",
+      "financialYear": "FY 2026-27",
+      "month": 3,
+      "monthName": "March 2027",
+      "status": "Changes Requested",
+      "submittingUser": "Suresh Kumar (Site Contributor)",
+      "submittedAt": "2026-03-28 14:35:00",
+      "lastReviewedAt": "10/9/2026, 10:20:43 PM",
+      "reviewerName": "Aarav Patel (Review Lead)",
+      "totalRows": 23,
+      "verifiedRows": 5,
+      "correctionRequiredRows": 1,
+      "pendingRows": 17,
+      "rows": {
+        "P1-IND-01": {
+          "id": "P1-IND-01",
+          "name": "Anti-corruption and anti-bribery incidents reported",
+          "principleId": 1,
+          "principleTitle": "Ethics & Transparency",
+          "category": "Governance",
+          "description": "BRSR Disclosure for Anti-corruption and anti-bribery incidents reported",
+          "unit": "Incidents",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "0",
+          "currentValue": "0",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p1-ind-01",
+              "name": "Vigilance Register March.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/Vigilance Register March.pdf"
+            }
+          ],
+          "reviewStatus": "VERIFIED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35",
+          "reviewerDecision": {
+            "rowId": "P1-IND-01",
+            "status": "VERIFIED",
+            "reviewerName": "Aarav Patel (Review Lead)",
+            "reviewerId": "u_rev",
+            "reviewTimestamp": "2026-03-29 11:20:00",
+            "version": 1,
+            "history": [
+              {
+                "action": "SUBMITTED",
+                "actorName": "Suresh Kumar (Site Contributor)",
+                "timestamp": "2026-03-28 14:35:00",
+                "value": "0",
+                "version": 1
+              },
+              {
+                "action": "VERIFIED",
+                "actorName": "Aarav Patel (Review Lead)",
+                "timestamp": "2026-03-29 11:20:00",
+                "value": "0",
+                "version": 1,
+                "comment": "Verified against primary audit evidence."
+              }
+            ]
+          }
+        },
+        "P1-IND-02": {
+          "id": "P1-IND-02",
+          "name": "Whistleblower complaints received and resolved",
+          "principleId": 1,
+          "principleTitle": "Ethics & Transparency",
+          "category": "Governance",
+          "description": "BRSR Disclosure for Whistleblower complaints received and resolved",
+          "unit": "Complaints",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "2",
+          "currentValue": "1",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p1-ind-02",
+              "name": "Ethics Committee Log.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/Ethics Committee Log.pdf"
+            }
+          ],
+          "reviewStatus": "VERIFIED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35",
+          "reviewerDecision": {
+            "rowId": "P1-IND-02",
+            "status": "VERIFIED",
+            "reviewerName": "Aarav Patel (Review Lead)",
+            "reviewerId": "u_rev",
+            "reviewTimestamp": "2026-03-29 11:20:00",
+            "version": 1,
+            "history": [
+              {
+                "action": "SUBMITTED",
+                "actorName": "Suresh Kumar (Site Contributor)",
+                "timestamp": "2026-03-28 14:35:00",
+                "value": "1",
+                "version": 1
+              },
+              {
+                "action": "VERIFIED",
+                "actorName": "Aarav Patel (Review Lead)",
+                "timestamp": "2026-03-29 11:20:00",
+                "value": "1",
+                "version": 1,
+                "comment": "Verified against primary audit evidence."
+              }
+            ]
+          }
+        },
+        "P1-IND-03": {
+          "id": "P1-IND-03",
+          "name": "Ethics policy trainings conducted for contractors",
+          "principleId": 1,
+          "principleTitle": "Ethics & Transparency",
+          "category": "Governance",
+          "description": "BRSR Disclosure for Ethics policy trainings conducted for contractors",
+          "unit": "Persons",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": false,
+          "previousMonthValue": "120",
+          "currentValue": "145",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p1-ind-03",
+              "name": "Training Attendance Sheet.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/Training Attendance Sheet.pdf"
+            }
+          ],
+          "reviewStatus": "VERIFIED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35",
+          "reviewerDecision": {
+            "rowId": "P1-IND-03",
+            "status": "VERIFIED",
+            "reviewerName": "Aarav Patel (Review Lead)",
+            "reviewerId": "u_rev",
+            "reviewTimestamp": "2026-03-29 11:20:00",
+            "version": 1,
+            "history": [
+              {
+                "action": "SUBMITTED",
+                "actorName": "Suresh Kumar (Site Contributor)",
+                "timestamp": "2026-03-28 14:35:00",
+                "value": "145",
+                "version": 1
+              },
+              {
+                "action": "VERIFIED",
+                "actorName": "Aarav Patel (Review Lead)",
+                "timestamp": "2026-03-29 11:20:00",
+                "value": "145",
+                "version": 1,
+                "comment": "Verified against primary audit evidence."
+              }
+            ]
+          }
+        },
+        "P2-IND-01": {
+          "id": "P2-IND-01",
+          "name": "Recycled raw material input percentage in pavement mix",
+          "principleId": 2,
+          "principleTitle": "Sustainable Products & Services",
+          "category": "Environmental",
+          "description": "BRSR Disclosure for Recycled raw material input percentage in pavement mix",
+          "unit": "%",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "15.0",
+          "currentValue": "18.5",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p2-ind-01",
+              "name": "Batch Mix Plant QA Slip.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/Batch Mix Plant QA Slip.pdf"
+            }
+          ],
+          "reviewStatus": "VERIFIED",
+          "version": 1,
+          "lastUpdated": "10/9/2026, 10:20:16 PM",
+          "reviewerDecision": {
+            "rowId": "P2-IND-01",
+            "status": "VERIFIED",
+            "reviewerName": "Aarav Patel (Review Lead)",
+            "reviewerId": "u_rev",
+            "reviewTimestamp": "10/9/2026, 10:20:16 PM",
+            "version": 1,
+            "history": [
+              {
+                "action": "SUBMITTED",
+                "actorName": "Suresh Kumar (Site Contributor)",
+                "timestamp": "2026-03-28 14:35:00",
+                "value": "18.5",
+                "version": 1
+              },
+              {
+                "action": "VERIFIED",
+                "actorName": "Aarav Patel (Review Lead)",
+                "timestamp": "2026-03-29 11:20:00",
+                "value": "18.5",
+                "version": 1,
+                "comment": "Verified against primary audit evidence."
+              },
+              {
+                "action": "VERIFIED",
+                "actorName": "Aarav Patel (Review Lead)",
+                "timestamp": "10/9/2026, 10:20:16 PM",
+                "value": "18.5",
+                "version": 1,
+                "comment": "Confirmed accurate and substantiated by reviewer."
+              }
+            ]
+          }
+        },
+        "P2-IND-02": {
+          "id": "P2-IND-02",
+          "name": "Fly ash utilized in structural embankment works",
+          "principleId": 2,
+          "principleTitle": "Sustainable Products & Services",
+          "category": "Environmental",
+          "description": "BRSR Disclosure for Fly ash utilized in structural embankment works",
+          "unit": "Metric Tonnes",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "2100",
+          "currentValue": "1800",
+          "remarks": "Reconciled with thermal plant challan ticket WB-882.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p2-ind-02",
+              "name": "Thermal Plant Flyash Invoice.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/Thermal Plant Flyash Invoice.pdf"
+            }
+          ],
+          "reviewStatus": "VERIFIED",
+          "version": 2,
+          "lastUpdated": "10/9/2026, 10:20:43 PM",
+          "reviewerDecision": {
+            "rowId": "P2-IND-02",
+            "status": "VERIFIED",
+            "reviewerName": "Aarav Patel (Review Lead)",
+            "reviewerId": "u_rev",
+            "reviewTimestamp": "10/9/2026, 10:20:43 PM",
+            "version": 2,
+            "history": [
+              {
+                "action": "SUBMITTED",
+                "actorName": "Suresh Kumar (Site Contributor)",
+                "timestamp": "2026-03-28 14:35:00",
+                "value": "2450",
+                "version": 1
+              },
+              {
+                "action": "VERIFIED",
+                "actorName": "Aarav Patel (Review Lead)",
+                "timestamp": "2026-03-29 11:20:00",
+                "value": "2450",
+                "version": 1,
+                "comment": "Verified against primary audit evidence."
+              },
+              {
+                "action": "CORRECTION_REQUIRED",
+                "actorName": "Aarav Patel (Review Lead)",
+                "timestamp": "10/9/2026, 10:20:22 PM",
+                "value": "2450",
+                "version": 1,
+                "comment": "[Supporting evidence does not match] Fly ash invoice ticket WB-882 specifies 1,800 MT instead of 2,450 MT."
+              },
+              {
+                "action": "RESUBMITTED",
+                "actorName": "Suresh Kumar (Site Contributor)",
+                "timestamp": "10/9/2026, 10:20:35 PM",
+                "value": "1800",
+                "version": 2,
+                "comment": "Reconciled with thermal plant challan ticket WB-882."
+              },
+              {
+                "action": "VERIFIED",
+                "actorName": "Aarav Patel (Review Lead)",
+                "timestamp": "10/9/2026, 10:20:43 PM",
+                "value": "1800",
+                "version": 2,
+                "comment": "Confirmed accurate and substantiated by reviewer."
+              }
+            ]
+          }
+        },
+        "P2-IND-03": {
+          "id": "P2-IND-03",
+          "name": "High-efficiency Tier-4 construction equipment deployed",
+          "principleId": 2,
+          "principleTitle": "Sustainable Products & Services",
+          "category": "Environmental",
+          "description": "BRSR Disclosure for High-efficiency Tier-4 construction equipment deployed",
+          "unit": "Units",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": false,
+          "previousMonthValue": "28",
+          "currentValue": "32",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p2-ind-03",
+              "name": "Fleet Maintenance Record.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/Fleet Maintenance Record.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P3-IND-01": {
+          "id": "P3-IND-01",
+          "name": "Total permanent and contractual worker headcount",
+          "principleId": 3,
+          "principleTitle": "Employee Well‑being",
+          "category": "Social",
+          "description": "BRSR Disclosure for Total permanent and contractual worker headcount",
+          "unit": "Headcount",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "395",
+          "currentValue": "412",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p3-ind-01",
+              "name": "Biometric Attendance Report.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/Biometric Attendance Report.pdf"
+            }
+          ],
+          "reviewStatus": "CORRECTION_REQUIRED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35",
+          "reviewerDecision": {
+            "rowId": "P3-IND-01",
+            "status": "CORRECTION_REQUIRED",
+            "reviewerName": "Aarav Patel (Review Lead)",
+            "reviewerId": "u_rev",
+            "reviewTimestamp": "2026-03-29 11:45:00",
+            "correctionReasonCategory": "Supporting evidence does not match",
+            "correctionReason": "Biometric contractor attendance log does not match the total headcount figure of 412. Please upload reconciled muster roll.",
+            "suggestedCorrection": "Reconcile headcount against Form B register.",
+            "supportingComment": "Check contractor sub-camp B headcount.",
+            "version": 1,
+            "history": [
+              {
+                "action": "SUBMITTED",
+                "actorName": "Suresh Kumar (Site Contributor)",
+                "timestamp": "2026-03-28 14:35:00",
+                "value": "412",
+                "version": 1
+              },
+              {
+                "action": "CORRECTION_REQUIRED",
+                "actorName": "Aarav Patel (Review Lead)",
+                "timestamp": "2026-03-29 11:45:00",
+                "value": "412",
+                "version": 1,
+                "comment": "Flagged for reconciliation against contractor muster roll."
+              }
+            ]
+          }
+        },
+        "P3-IND-02": {
+          "id": "P3-IND-02",
+          "name": "Permanent female workforce representation percentage",
+          "principleId": 3,
+          "principleTitle": "Employee Well‑being",
+          "category": "Social",
+          "description": "BRSR Disclosure for Permanent female workforce representation percentage",
+          "unit": "%",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "13.8",
+          "currentValue": "14.2",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p3-ind-02",
+              "name": "HR Payroll Master.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/HR Payroll Master.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P3-IND-03": {
+          "id": "P3-IND-03",
+          "name": "Lost Time Injury Frequency Rate (LTIFR)",
+          "principleId": 3,
+          "principleTitle": "Employee Well‑being",
+          "category": "Social",
+          "description": "BRSR Disclosure for Lost Time Injury Frequency Rate (LTIFR)",
+          "unit": "Rate / 1M hrs",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "0.00",
+          "currentValue": "0.00",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p3-ind-03",
+              "name": "HSE Monthly Safety Register.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/HSE Monthly Safety Register.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P3-IND-04": {
+          "id": "P3-IND-04",
+          "name": "Mandatory HSE induction and toolbox talks completed",
+          "principleId": 3,
+          "principleTitle": "Employee Well‑being",
+          "category": "Social",
+          "description": "BRSR Disclosure for Mandatory HSE induction and toolbox talks completed",
+          "unit": "Toolbox Talks",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": false,
+          "previousMonthValue": "52",
+          "currentValue": "58",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p3-ind-04",
+              "name": "Daily Toolbox Logbook.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/Daily Toolbox Logbook.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P4-IND-01": {
+          "id": "P4-IND-01",
+          "name": "Local community stakeholder consultation meetings held",
+          "principleId": 4,
+          "principleTitle": "Stakeholder Engagement",
+          "category": "Stakeholder",
+          "description": "BRSR Disclosure for Local community stakeholder consultation meetings held",
+          "unit": "Meetings",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "3",
+          "currentValue": "4",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p4-ind-01",
+              "name": "Panchayat Consultation Minutes.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/Panchayat Consultation Minutes.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P4-IND-02": {
+          "id": "P4-IND-02",
+          "name": "Grievances received from project-affected persons",
+          "principleId": 4,
+          "principleTitle": "Stakeholder Engagement",
+          "category": "Stakeholder",
+          "description": "BRSR Disclosure for Grievances received from project-affected persons",
+          "unit": "Grievances",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "5",
+          "currentValue": "2",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p4-ind-02",
+              "name": "PAP Grievance Cell Log.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/PAP Grievance Cell Log.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P5-IND-01": {
+          "id": "P5-IND-01",
+          "name": "Child labor and forced labor prevention audits conducted",
+          "principleId": 5,
+          "principleTitle": "Human Rights",
+          "category": "Social",
+          "description": "BRSR Disclosure for Child labor and forced labor prevention audits conducted",
+          "unit": "Camp Audits",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "10",
+          "currentValue": "12",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p5-ind-01",
+              "name": "Labor Camp Inspection Report.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/Labor Camp Inspection Report.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P5-IND-02": {
+          "id": "P5-IND-02",
+          "name": "Minimum wage compliance certification across contractors",
+          "principleId": 5,
+          "principleTitle": "Human Rights",
+          "category": "Social",
+          "description": "BRSR Disclosure for Minimum wage compliance certification across contractors",
+          "unit": "%",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "100.0",
+          "currentValue": "100.0",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p5-ind-02",
+              "name": "Contractor Wage Slips Audit.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/Contractor Wage Slips Audit.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P6-IND-01": {
+          "id": "P6-IND-01",
+          "name": "Scope 1 Diesel consumption in heavy earthmoving fleet",
+          "principleId": 6,
+          "principleTitle": "Environment & Climate Care",
+          "category": "Environmental",
+          "description": "BRSR Disclosure for Scope 1 Diesel consumption in heavy earthmoving fleet",
+          "unit": "Kilolitres",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "81.2",
+          "currentValue": "84.6",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p6-ind-01",
+              "name": "IOCL Fuel Dispenser Receipt.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/IOCL Fuel Dispenser Receipt.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P6-IND-02": {
+          "id": "P6-IND-02",
+          "name": "Scope 2 Grid electricity consumption at batching camp",
+          "principleId": 6,
+          "principleTitle": "Environment & Climate Care",
+          "category": "Environmental",
+          "description": "BRSR Disclosure for Scope 2 Grid electricity consumption at batching camp",
+          "unit": "kWh",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "41800",
+          "currentValue": "42500",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p6-ind-02",
+              "name": "State Electricity Board Bill.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/State Electricity Board Bill.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P6-IND-03": {
+          "id": "P6-IND-03",
+          "name": "Dust suppression water sprayed on haul roads",
+          "principleId": 6,
+          "principleTitle": "Environment & Climate Care",
+          "category": "Environmental",
+          "description": "BRSR Disclosure for Dust suppression water sprayed on haul roads",
+          "unit": "Kilolitres",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": false,
+          "previousMonthValue": "1150",
+          "currentValue": "1240",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p6-ind-03",
+              "name": "Water Tanker Trip Sheets.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/Water Tanker Trip Sheets.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P6-IND-04": {
+          "id": "P6-IND-04",
+          "name": "Hazardous waste (used lube oil) disposed via authorized recycler",
+          "principleId": 6,
+          "principleTitle": "Environment & Climate Care",
+          "category": "Environmental",
+          "description": "BRSR Disclosure for Hazardous waste (used lube oil) disposed via authorized recycler",
+          "unit": "Litres",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "500",
+          "currentValue": "650",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p6-ind-04",
+              "name": "CPCB Recycler Manifest Form 10.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/CPCB Recycler Manifest Form 10.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P7-IND-01": {
+          "id": "P7-IND-01",
+          "name": "Industry association memberships and climate advocacy affiliations",
+          "principleId": 7,
+          "principleTitle": "Responsible Public Policy",
+          "category": "Governance",
+          "description": "BRSR Disclosure for Industry association memberships and climate advocacy affiliations",
+          "unit": "Affiliations",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "3",
+          "currentValue": "3",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p7-ind-01",
+              "name": "NHAI & CII Memberships.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/NHAI & CII Memberships.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P8-IND-01": {
+          "id": "P8-IND-01",
+          "name": "Direct CSR expenditure disbursed in project periphery villages",
+          "principleId": 8,
+          "principleTitle": "Inclusive Growth & CSR",
+          "category": "Economic",
+          "description": "BRSR Disclosure for Direct CSR expenditure disbursed in project periphery villages",
+          "unit": "INR Lakhs",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "14.50",
+          "currentValue": "18.75",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p8-ind-01",
+              "name": "Bank Disbursal Statement.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/Bank Disbursal Statement.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P8-IND-02": {
+          "id": "P8-IND-02",
+          "name": "Local workforce hired from project-affected revenue villages",
+          "principleId": 8,
+          "principleTitle": "Inclusive Growth & CSR",
+          "category": "Social",
+          "description": "BRSR Disclosure for Local workforce hired from project-affected revenue villages",
+          "unit": "Persons",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "175",
+          "currentValue": "184",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p8-ind-02",
+              "name": "Local Employment Register.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/Local Employment Register.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P9-IND-01": {
+          "id": "P9-IND-01",
+          "name": "Independent third-party concrete core quality test approvals",
+          "principleId": 9,
+          "principleTitle": "Customer Responsibility & Quality",
+          "category": "Quality",
+          "description": "BRSR Disclosure for Independent third-party concrete core quality test approvals",
+          "unit": "% Passed",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "99.1",
+          "currentValue": "99.4",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p9-ind-01",
+              "name": "NABL Lab Test Certificate.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/NABL Lab Test Certificate.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P9-IND-02": {
+          "id": "P9-IND-02",
+          "name": "Customer / NHAI quality non-conformance reports (NCRs) closed",
+          "principleId": 9,
+          "principleTitle": "Customer Responsibility & Quality",
+          "category": "Quality",
+          "description": "BRSR Disclosure for Customer / NHAI quality non-conformance reports (NCRs) closed",
+          "unit": "NCRs Closed",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "2",
+          "currentValue": "3",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p9-ind-02",
+              "name": "NHAI Quality Audit Compliance.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/NHAI Quality Audit Compliance.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        }
+      }
+    },
+    {
+      "dossierId": "dossier_klis_2026_03",
+      "contextKey": "meil_klis_2026_03",
+      "projectId": "proj_klis",
+      "projectName": "Kaleshwaram Lift Irrigation Site 4",
+      "projectCode": "MEIL-IRR-KLIS-04",
+      "siteId": "site_klis_04",
+      "siteName": "Pumping Station Complex 04",
+      "financialYear": "FY 2026-27",
+      "month": 3,
+      "monthName": "March 2027",
+      "status": "Submitted",
+      "submittingUser": "K. Venkatesh (Operations Lead)",
+      "submittedAt": "2026-03-29 09:15:00",
+      "totalRows": 23,
+      "verifiedRows": 0,
+      "correctionRequiredRows": 0,
+      "pendingRows": 23,
+      "rows": {
+        "P1-IND-01": {
+          "id": "P1-IND-01",
+          "name": "Anti-corruption and anti-bribery incidents reported",
+          "principleId": 1,
+          "principleTitle": "Ethics & Transparency",
+          "category": "Governance",
+          "description": "BRSR Disclosure for Anti-corruption and anti-bribery incidents reported",
+          "unit": "Incidents",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "0",
+          "currentValue": "0",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p1-ind-01",
+              "name": "Vigilance Register March.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/Vigilance Register March.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P1-IND-02": {
+          "id": "P1-IND-02",
+          "name": "Whistleblower complaints received and resolved",
+          "principleId": 1,
+          "principleTitle": "Ethics & Transparency",
+          "category": "Governance",
+          "description": "BRSR Disclosure for Whistleblower complaints received and resolved",
+          "unit": "Complaints",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "2",
+          "currentValue": "1",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p1-ind-02",
+              "name": "Ethics Committee Log.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/Ethics Committee Log.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P1-IND-03": {
+          "id": "P1-IND-03",
+          "name": "Ethics policy trainings conducted for contractors",
+          "principleId": 1,
+          "principleTitle": "Ethics & Transparency",
+          "category": "Governance",
+          "description": "BRSR Disclosure for Ethics policy trainings conducted for contractors",
+          "unit": "Persons",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": false,
+          "previousMonthValue": "120",
+          "currentValue": "145",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p1-ind-03",
+              "name": "Training Attendance Sheet.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/Training Attendance Sheet.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P2-IND-01": {
+          "id": "P2-IND-01",
+          "name": "Recycled raw material input percentage in pavement mix",
+          "principleId": 2,
+          "principleTitle": "Sustainable Products & Services",
+          "category": "Environmental",
+          "description": "BRSR Disclosure for Recycled raw material input percentage in pavement mix",
+          "unit": "%",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "15.0",
+          "currentValue": "18.5",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p2-ind-01",
+              "name": "Batch Mix Plant QA Slip.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/Batch Mix Plant QA Slip.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P2-IND-02": {
+          "id": "P2-IND-02",
+          "name": "Fly ash utilized in structural embankment works",
+          "principleId": 2,
+          "principleTitle": "Sustainable Products & Services",
+          "category": "Environmental",
+          "description": "BRSR Disclosure for Fly ash utilized in structural embankment works",
+          "unit": "Metric Tonnes",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "2100",
+          "currentValue": "2450",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p2-ind-02",
+              "name": "Thermal Plant Flyash Invoice.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/Thermal Plant Flyash Invoice.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P2-IND-03": {
+          "id": "P2-IND-03",
+          "name": "High-efficiency Tier-4 construction equipment deployed",
+          "principleId": 2,
+          "principleTitle": "Sustainable Products & Services",
+          "category": "Environmental",
+          "description": "BRSR Disclosure for High-efficiency Tier-4 construction equipment deployed",
+          "unit": "Units",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": false,
+          "previousMonthValue": "28",
+          "currentValue": "32",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p2-ind-03",
+              "name": "Fleet Maintenance Record.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/Fleet Maintenance Record.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P3-IND-01": {
+          "id": "P3-IND-01",
+          "name": "Total permanent and contractual worker headcount",
+          "principleId": 3,
+          "principleTitle": "Employee Well‑being",
+          "category": "Social",
+          "description": "BRSR Disclosure for Total permanent and contractual worker headcount",
+          "unit": "Headcount",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "395",
+          "currentValue": "412",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p3-ind-01",
+              "name": "Biometric Attendance Report.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/Biometric Attendance Report.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P3-IND-02": {
+          "id": "P3-IND-02",
+          "name": "Permanent female workforce representation percentage",
+          "principleId": 3,
+          "principleTitle": "Employee Well‑being",
+          "category": "Social",
+          "description": "BRSR Disclosure for Permanent female workforce representation percentage",
+          "unit": "%",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "13.8",
+          "currentValue": "14.2",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p3-ind-02",
+              "name": "HR Payroll Master.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/HR Payroll Master.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P3-IND-03": {
+          "id": "P3-IND-03",
+          "name": "Lost Time Injury Frequency Rate (LTIFR)",
+          "principleId": 3,
+          "principleTitle": "Employee Well‑being",
+          "category": "Social",
+          "description": "BRSR Disclosure for Lost Time Injury Frequency Rate (LTIFR)",
+          "unit": "Rate / 1M hrs",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "0.00",
+          "currentValue": "0.00",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p3-ind-03",
+              "name": "HSE Monthly Safety Register.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/HSE Monthly Safety Register.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P3-IND-04": {
+          "id": "P3-IND-04",
+          "name": "Mandatory HSE induction and toolbox talks completed",
+          "principleId": 3,
+          "principleTitle": "Employee Well‑being",
+          "category": "Social",
+          "description": "BRSR Disclosure for Mandatory HSE induction and toolbox talks completed",
+          "unit": "Toolbox Talks",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": false,
+          "previousMonthValue": "52",
+          "currentValue": "58",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p3-ind-04",
+              "name": "Daily Toolbox Logbook.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/Daily Toolbox Logbook.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P4-IND-01": {
+          "id": "P4-IND-01",
+          "name": "Local community stakeholder consultation meetings held",
+          "principleId": 4,
+          "principleTitle": "Stakeholder Engagement",
+          "category": "Stakeholder",
+          "description": "BRSR Disclosure for Local community stakeholder consultation meetings held",
+          "unit": "Meetings",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "3",
+          "currentValue": "4",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p4-ind-01",
+              "name": "Panchayat Consultation Minutes.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/Panchayat Consultation Minutes.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P4-IND-02": {
+          "id": "P4-IND-02",
+          "name": "Grievances received from project-affected persons",
+          "principleId": 4,
+          "principleTitle": "Stakeholder Engagement",
+          "category": "Stakeholder",
+          "description": "BRSR Disclosure for Grievances received from project-affected persons",
+          "unit": "Grievances",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "5",
+          "currentValue": "2",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p4-ind-02",
+              "name": "PAP Grievance Cell Log.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/PAP Grievance Cell Log.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P5-IND-01": {
+          "id": "P5-IND-01",
+          "name": "Child labor and forced labor prevention audits conducted",
+          "principleId": 5,
+          "principleTitle": "Human Rights",
+          "category": "Social",
+          "description": "BRSR Disclosure for Child labor and forced labor prevention audits conducted",
+          "unit": "Camp Audits",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "10",
+          "currentValue": "12",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p5-ind-01",
+              "name": "Labor Camp Inspection Report.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/Labor Camp Inspection Report.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P5-IND-02": {
+          "id": "P5-IND-02",
+          "name": "Minimum wage compliance certification across contractors",
+          "principleId": 5,
+          "principleTitle": "Human Rights",
+          "category": "Social",
+          "description": "BRSR Disclosure for Minimum wage compliance certification across contractors",
+          "unit": "%",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "100.0",
+          "currentValue": "100.0",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p5-ind-02",
+              "name": "Contractor Wage Slips Audit.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/Contractor Wage Slips Audit.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P6-IND-01": {
+          "id": "P6-IND-01",
+          "name": "Scope 1 Diesel consumption in heavy earthmoving fleet",
+          "principleId": 6,
+          "principleTitle": "Environment & Climate Care",
+          "category": "Environmental",
+          "description": "BRSR Disclosure for Scope 1 Diesel consumption in heavy earthmoving fleet",
+          "unit": "Kilolitres",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "81.2",
+          "currentValue": "84.6",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p6-ind-01",
+              "name": "IOCL Fuel Dispenser Receipt.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/IOCL Fuel Dispenser Receipt.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P6-IND-02": {
+          "id": "P6-IND-02",
+          "name": "Scope 2 Grid electricity consumption at batching camp",
+          "principleId": 6,
+          "principleTitle": "Environment & Climate Care",
+          "category": "Environmental",
+          "description": "BRSR Disclosure for Scope 2 Grid electricity consumption at batching camp",
+          "unit": "kWh",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "41800",
+          "currentValue": "42500",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p6-ind-02",
+              "name": "State Electricity Board Bill.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/State Electricity Board Bill.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P6-IND-03": {
+          "id": "P6-IND-03",
+          "name": "Dust suppression water sprayed on haul roads",
+          "principleId": 6,
+          "principleTitle": "Environment & Climate Care",
+          "category": "Environmental",
+          "description": "BRSR Disclosure for Dust suppression water sprayed on haul roads",
+          "unit": "Kilolitres",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": false,
+          "previousMonthValue": "1150",
+          "currentValue": "1240",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p6-ind-03",
+              "name": "Water Tanker Trip Sheets.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/Water Tanker Trip Sheets.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P6-IND-04": {
+          "id": "P6-IND-04",
+          "name": "Hazardous waste (used lube oil) disposed via authorized recycler",
+          "principleId": 6,
+          "principleTitle": "Environment & Climate Care",
+          "category": "Environmental",
+          "description": "BRSR Disclosure for Hazardous waste (used lube oil) disposed via authorized recycler",
+          "unit": "Litres",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "500",
+          "currentValue": "650",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p6-ind-04",
+              "name": "CPCB Recycler Manifest Form 10.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/CPCB Recycler Manifest Form 10.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P7-IND-01": {
+          "id": "P7-IND-01",
+          "name": "Industry association memberships and climate advocacy affiliations",
+          "principleId": 7,
+          "principleTitle": "Responsible Public Policy",
+          "category": "Governance",
+          "description": "BRSR Disclosure for Industry association memberships and climate advocacy affiliations",
+          "unit": "Affiliations",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "3",
+          "currentValue": "3",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p7-ind-01",
+              "name": "NHAI & CII Memberships.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/NHAI & CII Memberships.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P8-IND-01": {
+          "id": "P8-IND-01",
+          "name": "Direct CSR expenditure disbursed in project periphery villages",
+          "principleId": 8,
+          "principleTitle": "Inclusive Growth & CSR",
+          "category": "Economic",
+          "description": "BRSR Disclosure for Direct CSR expenditure disbursed in project periphery villages",
+          "unit": "INR Lakhs",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "14.50",
+          "currentValue": "18.75",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p8-ind-01",
+              "name": "Bank Disbursal Statement.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/Bank Disbursal Statement.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P8-IND-02": {
+          "id": "P8-IND-02",
+          "name": "Local workforce hired from project-affected revenue villages",
+          "principleId": 8,
+          "principleTitle": "Inclusive Growth & CSR",
+          "category": "Social",
+          "description": "BRSR Disclosure for Local workforce hired from project-affected revenue villages",
+          "unit": "Persons",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "175",
+          "currentValue": "184",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p8-ind-02",
+              "name": "Local Employment Register.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/Local Employment Register.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P9-IND-01": {
+          "id": "P9-IND-01",
+          "name": "Independent third-party concrete core quality test approvals",
+          "principleId": 9,
+          "principleTitle": "Customer Responsibility & Quality",
+          "category": "Quality",
+          "description": "BRSR Disclosure for Independent third-party concrete core quality test approvals",
+          "unit": "% Passed",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "99.1",
+          "currentValue": "99.4",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p9-ind-01",
+              "name": "NABL Lab Test Certificate.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/NABL Lab Test Certificate.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        },
+        "P9-IND-02": {
+          "id": "P9-IND-02",
+          "name": "Customer / NHAI quality non-conformance reports (NCRs) closed",
+          "principleId": 9,
+          "principleTitle": "Customer Responsibility & Quality",
+          "category": "Quality",
+          "description": "BRSR Disclosure for Customer / NHAI quality non-conformance reports (NCRs) closed",
+          "unit": "NCRs Closed",
+          "valueType": "numeric",
+          "required": true,
+          "isBrsrCore": true,
+          "previousMonthValue": "2",
+          "currentValue": "3",
+          "remarks": "Field validated and corroborated with site measurement registers.",
+          "evidenceFiles": [
+            {
+              "id": "ev_p9-ind-02",
+              "name": "NHAI Quality Audit Compliance.pdf",
+              "type": "application/pdf",
+              "size": 1450000,
+              "uploadedAt": "2026-03-28 14:30",
+              "url": "/evidence/NHAI Quality Audit Compliance.pdf"
+            }
+          ],
+          "reviewStatus": "SUBMITTED",
+          "version": 1,
+          "lastUpdated": "2026-03-28 14:35"
+        }
+      }
+    }
+  ],
+  "corrections": [
+    {
+      "id": "corr_1791584422423_P2-IND-02",
+      "assignmentId": "dossier_exp_2026_03",
+      "rowId": "P2-IND-02",
+      "indicatorCode": "P2-IND-02",
+      "indicatorName": "Fly ash utilized in structural embankment works",
+      "projectName": "Expressway Project Phase-II (Raipur)",
+      "siteName": "Site 02 (Km 42 - Km 88)",
+      "financialYear": "FY 2026-27",
+      "monthName": "March 2027",
+      "previousValue": "2450",
+      "unit": "Metric Tonnes",
+      "problem": "[Supporting evidence does not match] Fly ash invoice ticket WB-882 specifies 1,800 MT instead of 2,450 MT.",
+      "reasonCategory": "Supporting evidence does not match",
+      "reason": "Fly ash invoice ticket WB-882 specifies 1,800 MT instead of 2,450 MT.",
+      "requiredCorrection": "Upload reconciled thermal plant delivery challan.",
+      "reviewerComment": "Fly ash invoice ticket WB-882 specifies 1,800 MT instead of 2,450 MT.",
+      "requestedAt": "10/9/2026, 10:20:22 PM",
+      "requestedBy": "Aarav Patel (Review Lead)",
+      "status": "RESOLVED",
+      "deadline": "2026-10-16",
+      "resubmittedValue": "1800",
+      "contributorResponse": "Reconciled with thermal plant challan ticket WB-882.",
+      "resubmittedAt": "10/9/2026, 10:20:35 PM"
+    },
+    {
+      "id": "corr_seed_01",
+      "assignmentId": "dossier_exp_2026_03",
+      "rowId": "P3-IND-01",
+      "indicatorCode": "P3-IND-01",
+      "indicatorName": "Total permanent and contractual worker headcount",
+      "projectName": "Expressway Project Phase-II (Raipur)",
+      "siteName": "Site 02 (Km 42 - Km 88)",
+      "financialYear": "FY 2026-27",
+      "monthName": "March 2027",
+      "previousValue": "412",
+      "unit": "Headcount",
+      "problem": "[Supporting evidence does not match] Biometric contractor attendance log mismatch",
+      "reasonCategory": "Supporting evidence does not match",
+      "reason": "Biometric contractor attendance log does not match the total headcount figure of 412. Please upload reconciled muster roll.",
+      "requiredCorrection": "Reconcile headcount against Form B register and upload contractor endorsement.",
+      "reviewerComment": "Check contractor sub-camp B headcount.",
+      "requestedAt": "2026-03-29 11:45:00",
+      "requestedBy": "Aarav Patel (Review Lead)",
+      "status": "PENDING_CONTRIBUTOR",
+      "deadline": "2026-04-05"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "aud_1791584443271_P2-IND-02",
+      "assignmentId": "dossier_exp_2026_03",
+      "indicatorCode": "P2-IND-02",
+      "indicatorName": "Fly ash utilized in structural embankment works",
+      "submittedBy": "Suresh Kumar (Site Contributor)",
+      "reviewedBy": "Aarav Patel (Review Lead)",
+      "reviewDate": "10/9/2026, 10:20:43 PM",
+      "decision": "APPROVE",
+      "previousValue": "2100",
+      "newValue": "1800",
+      "unit": "Metric Tonnes",
+      "reason": "Row confirmed accurate and substantiated with statutory evidence.",
+      "evidenceSummary": "1 file(s) attached",
+      "comments": "Verified row P2-IND-02 (Fly ash utilized in structural embankment works)",
+      "scopeProject": "Expressway Project Phase-II (Raipur) (Site 02 (Km 42 - Km 88))",
+      "reportingPeriod": "March 2027 FY 2026-27",
+      "version": 2
+    },
+    {
+      "id": "aud_1791584435843_P2-IND-02",
+      "assignmentId": "dossier_exp_2026_03",
+      "indicatorCode": "P2-IND-02",
+      "indicatorName": "Fly ash utilized in structural embankment works",
+      "submittedBy": "Suresh Kumar (Site Contributor)",
+      "reviewedBy": "Pending Reviewer Audit",
+      "reviewDate": "10/9/2026, 10:20:35 PM",
+      "decision": "RESUBMIT",
+      "previousValue": "2450",
+      "newValue": "1800",
+      "unit": "Metric Tonnes",
+      "reason": "Reconciled with thermal plant challan ticket WB-882.",
+      "evidenceSummary": "Revising numeric entry",
+      "comments": "Resubmitted with Revision v2",
+      "scopeProject": "Expressway Project Phase-II (Raipur) (Site 02 (Km 42 - Km 88))",
+      "reportingPeriod": "March 2027 FY 2026-27",
+      "version": 2
+    },
+    {
+      "id": "aud_1791584422423_P2-IND-02",
+      "assignmentId": "dossier_exp_2026_03",
+      "indicatorCode": "P2-IND-02",
+      "indicatorName": "Fly ash utilized in structural embankment works",
+      "submittedBy": "Suresh Kumar (Site Contributor)",
+      "reviewedBy": "Aarav Patel (Review Lead)",
+      "reviewDate": "10/9/2026, 10:20:22 PM",
+      "decision": "CORRECTION_REQUIRED",
+      "previousValue": "2450",
+      "newValue": "2450",
+      "unit": "Metric Tonnes",
+      "reason": "Flagged: [Supporting evidence does not match] Fly ash invoice ticket WB-882 specifies 1,800 MT instead of 2,450 MT.",
+      "evidenceSummary": "1 file(s)",
+      "comments": "Fly ash invoice ticket WB-882 specifies 1,800 MT instead of 2,450 MT.",
+      "scopeProject": "Expressway Project Phase-II (Raipur) (Site 02 (Km 42 - Km 88))",
+      "reportingPeriod": "March 2027 FY 2026-27",
+      "version": 1
+    },
+    {
+      "id": "aud_1791584416910_P2-IND-01",
+      "assignmentId": "dossier_exp_2026_03",
+      "indicatorCode": "P2-IND-01",
+      "indicatorName": "Recycled raw material input percentage in pavement mix",
+      "submittedBy": "Suresh Kumar (Site Contributor)",
+      "reviewedBy": "Aarav Patel (Review Lead)",
+      "reviewDate": "10/9/2026, 10:20:16 PM",
+      "decision": "APPROVE",
+      "previousValue": "15.0",
+      "newValue": "18.5",
+      "unit": "%",
+      "reason": "Row confirmed accurate and substantiated with statutory evidence.",
+      "evidenceSummary": "1 file(s) attached",
+      "comments": "Verified row P2-IND-01 (Recycled raw material input percentage in pavement mix)",
+      "scopeProject": "Expressway Project Phase-II (Raipur) (Site 02 (Km 42 - Km 88))",
+      "reportingPeriod": "March 2027 FY 2026-27",
+      "version": 1
+    },
+    {
+      "id": "aud_seed_01",
+      "assignmentId": "dossier_exp_2026_03",
+      "indicatorCode": "P1-IND-01",
+      "indicatorName": "Anti-corruption and anti-bribery incidents reported",
+      "submittedBy": "Suresh Kumar (Site Contributor)",
+      "reviewedBy": "Aarav Patel (Review Lead)",
+      "reviewDate": "2026-03-29 11:20:00",
+      "decision": "APPROVE",
+      "previousValue": "0",
+      "newValue": "0",
+      "unit": "Incidents",
+      "reason": "Row confirmed accurate and substantiated with statutory vigilance records.",
+      "evidenceSummary": "1 file attached",
+      "comments": "Statutory compliance confirmed.",
+      "scopeProject": "Expressway Project Phase-II (Raipur) (Site 02)",
+      "reportingPeriod": "March 2027 FY 2026-27",
+      "version": 1
+    }
+  ]
+}

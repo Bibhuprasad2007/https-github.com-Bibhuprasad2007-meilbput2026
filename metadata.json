@@ -1,0 +1,6 @@
+{
+  "name": "MEIL BRSR Reporting Portal",
+  "description": "Unified ESG reporting across projects, business units and subsidiaries for MEIL.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
